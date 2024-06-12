@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* header section start */
+header{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    background: #022D7C;
+}
+.slg{
+    font-size: 15px;
+    font-weight: normal;
+}
+.cnum{
+    color: #00FFFF;
+}
+/* header section end */
+/* Banner Section start */
+.banner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.125rem 6.25rem;
+    color: #fff;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/sales-square-banner4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.moto{
+    background: transparent;
+}
+.moto h1{
+    font-size: 3.438rem;
+    font-weight:normal;
+}
+.Nm{
+    font-size: 4.688rem;
+    font-weight: 600;
+    display: block;
+}
+.banner aside{
+    padding: 1.25rem;
+    border-radius: 0.438rem;
+    text-align: center;
+    background: #022D7C;
+}
+.banner aside input[type],
+.banner aside textarea,
+.banner aside button{
+    width: 100%;
+    height: 3.125rem;
+    margin: 0.438rem;
+}
+#Message{
+height: 7.5rem;
+}
+#FirstName,#LastName,#Email,#PhoneNumber{
+border: none;
+}
+#FirstName:focus,#LastName:focus,#Email:focus,#PhoneNumber:focus{
+outline: none;
+border-bottom: 2px solid rgb(255, 153, 0);
+}
+.s-btn{
+    font-size: 1rem;
+    font-weight: 600;
+    background: #00FFFF;
+    border: 2px solid #fff;
+}
+.s-btn:hover{
+    border: 2px solid #00FFFF;
+    background: #fff;
+    color: #000000;
+}
+/* Banner section end */
+/* Content Section Start */
+.container{
+    width: 100%;
+    height: auto;
+    padding: 3.75rem 6.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+.container div{
+    width: 30%;
+    height: 85.17vh;
+    cursor: pointer;
+}
+.container div h2{
+font-size: 2rem;
+margin-bottom: 0.348rem;
+}
+.container div img{
+    width: 25.5vw;
+    height: 50vh;
+}
+.container div p{
+    font-weight: 500;
+    margin-top: 0.313rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: rgb(69, 69, 123);
+}
+/* Content Section end */
+/* About Section start */
+.about{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    padding: 3.75rem 6.25rem;
+    background: #022D7C;
+}
+.about h2{
+    font-size: 32px;
+    margin-bottom: 7px;
+}
+.about p{
+    font-size: 18px;
+    font-weight: normal;
+}
+.about button{
+    background: #022D7C;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding: 1rem 6.25rem;
+    margin-top: 10px;
+}
+.about button:hover{
+    background: #fff ;
+    color: #022D7C;
+    border: 2px solid #0557ee;
+}
+/* About Section end */
+/* Service Section end */
+.service{
+    width: 100%;
+    height: auto;
+    padding: 0rem 6.25rem;
+}
+.upper-s, .lower-s{
+    display: flex;
+    align-items: center;
+}
+.imag{
+    width: 50%;
+    height: auto;
+}
+.content{
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+.upper-s .content{
+    padding-left: 60px;
+}
+.lower-s .content{
+    padding-right: 60px ;
+}
+.imag img{
+    width: 100%;
+    height: 80vh;
+}
+/* Service Section end */
+/* Footer Section end */
+.footer{
+    width: 100%;
+    height: auto;
+    padding: 1.563rem 6.25rem; 
+    text-align: center;
+    color: #fff;
+    background: #022D7C;
+}
+/* Footer Section end */

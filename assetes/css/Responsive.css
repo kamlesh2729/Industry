@@ -1,0 +1,150 @@
+@media screen and (max-width:768px) {
+header{
+        padding: 0px 2px;
+    }
+header h2{
+        font-size: 0.4rem;
+        display: flex;
+        flex-direction: column;                                                                                                 
+    }
+#Pc-Call{
+    display:none;
+}
+.moto h1{
+    font-size: 2rem;
+}
+.Nm{
+    font-size: 3rem;
+}
+.slg {
+    font-size: 0.7rem;
+}
+.cnum {
+    font-size: 0.7rem;
+    color: #00FFFF;
+}
+.banner {
+    height: auto;
+    flex-direction: column;
+    padding: 0rem 0rem 1rem 0rem;
+}
+.banner aside form h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.container {
+    flex-direction: column;
+    padding: 3.75rem 0rem;
+    gap: 1rem;
+}
+.container div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 4rem;
+}
+.container div h2 {
+    text-align: center;
+}
+.about {
+    padding: 3.75rem 0rem;
+}
+.about button {
+    padding: 1rem 4rem;
+}
+.service {
+    padding: 1rem 0rem;
+}
+.upper-s {
+    flex-direction: column;
+}
+.lower-s {
+    flex-direction: column-reverse;
+}
+.imag {
+    width: 100%;
+}
+.imag img {
+    width: 100%;
+    height: 60vh;
+}
+.upper-s .content {
+    padding-left: 0px;
+}
+.lower-s .content {
+    padding-right: 0px;
+}
+.content {
+    width: 100%;
+}
+}
+@media screen and (max-width:1023px) {
+    header{
+        padding: 0px 10px;
+    }
+    header h2 {
+            font-size: 1rem;
+            display:flex;
+            flex-direction: column;
+    }
+    .slg{
+        font-size: 0.7rem;
+    }
+    .banner{
+        height: auto;
+        flex-direction: column;
+        padding: 0rem 0rem 1rem 0rem;
+    }
+    .container{
+        flex-direction: column;
+        padding: 3.75rem 0rem;
+        gap: 1rem;
+    }
+    .container div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 4rem;
+    }
+    .container div h2{
+    text-align: center;
+    }
+.about{
+    padding: 3.75rem 0rem;
+}
+.about button{
+    padding: 1rem 4rem;
+}
+.service{
+    padding:1rem 0rem;
+}
+.upper-s{
+flex-direction: column;
+}
+.lower-s{
+flex-direction: column-reverse;
+}
+.imag{
+    width:100%;
+}
+.imag img{
+    width: 100%;
+    height: 60vh;
+}
+.upper-s .content {
+    padding-left: 0px;
+}
+
+.lower-s .content {
+    padding-right: 0px;
+}
+.content{
+    width: 100%;
+}
+}
